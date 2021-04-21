@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<h1 style="text-align: center"> Cifrador RSA </h1>
+{% endblock %}
+
+
+{% block body %}
+
+<div class="content">
+
+<h2 style="text-align: center"> Para cifrar</h2>
+
+  <form action="/cifre" style="text-align: center">
+    <input type="submit" value="Adelante">
+  </form>
+
+  <h2 style="text-align: center">Para descifrar</h2>
+
+  <form action="/descifre" style="text-align: center">
+    <input type="submit" value="Adelante">
+  </form>
+
+</div>
+{% endblock %}
